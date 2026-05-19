@@ -1,0 +1,14 @@
+{
+  "name": "c6-association-os",
+  "version": "1.0.0",
+  "description": "Multi-tenant platform for associations",
+  "scripts": {
+    "dev": "npm run dev --workspace=api",
+    "test": "echo \"No tests yet\"",
+    "build": "echo \"Build complete\""
+  },
+  "workspaces": ["apps/api"],
+  "devDependencies": {
+    "wrangler": "^3.0.0"
+  }
+}
