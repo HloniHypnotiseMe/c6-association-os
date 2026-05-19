@@ -1,0 +1,14 @@
+name = "c6-association-api"
+main = "src/index.js"
+compatibility_date = "2024-12-18"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "c6_association_os"
+database_id = "auto-fill-after-deploy"
+
+[env.production]
+vars = { ENVIRONMENT = "production" }
+
+[env.staging]
+vars = { ENVIRONMENT = "staging" }
